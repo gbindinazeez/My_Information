@@ -553,7 +553,7 @@ body .buttons-wrapper .slider > li:nth-child(1) {
 	transform-origin: center center -50vh;  
 } 
 body .buttons-wrapper .slider > li:nth-child(2) {
-	background: #630;
+	background: url(../images/slide2.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -566,7 +566,7 @@ body .buttons-wrapper .slider > li:nth-child(2) {
 	transform-origin: center center -50vh;  
 } 
 body .buttons-wrapper .slider > li:nth-child(3) {
-	background: url(../images/slide2.jpg) no-repeat bottom center;
+	background: url(../images/slide3.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -689,7 +689,7 @@ ul.address li a:hover {
 } 
 p {
     font-size: 1em;
-    color: #999;
+    color: #000;
     line-height: 1.8em;
 }
 .about-right {
