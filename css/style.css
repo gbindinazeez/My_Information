@@ -540,7 +540,7 @@ body .buttons-wrapper .slider > li {
 	background:#000;  
 }
 body .buttons-wrapper .slider > li:nth-child(1) {
-	background: url(../images/slide1.jpg)no-repeat center center;
+	background: url(../images/slide3.jpg)no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -553,7 +553,7 @@ body .buttons-wrapper .slider > li:nth-child(1) {
 	transform-origin: center center -50vh;  
 } 
 body .buttons-wrapper .slider > li:nth-child(2) {
-	background: #630;
+	background: url(../images/slide1.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -566,7 +566,7 @@ body .buttons-wrapper .slider > li:nth-child(2) {
 	transform-origin: center center -50vh;  
 } 
 body .buttons-wrapper .slider > li:nth-child(3) {
-	background: url(../images/slide2.jpg) no-repeat bottom center;
+	background: url(../images/slide2.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -579,7 +579,7 @@ body .buttons-wrapper .slider > li:nth-child(3) {
 	transform-origin: center center -50vh; 
 } 
 body .buttons-wrapper .slider > li:nth-child(4) {
-	background: #630;
+	background: aquamarine;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -620,7 +620,7 @@ body .buttons-wrapper .slider > li:nth-child(4) {
 }
 .banner h2 {
     font-size: 4em;
-    color: #fff;
+    color: #000;
     margin-bottom: 1.5em;
     text-align: center;
     font-weight: 200;
@@ -647,7 +647,7 @@ body .buttons-wrapper .slider > li:nth-child(4) {
 } 
 h3.agileits-title {
     font-size: 2em;
-    color: #fff;
+    color: #000;
     border-bottom: 1px dashed #757575;
     padding-bottom: .5em;
 	text-transform: uppercase;
@@ -660,11 +660,11 @@ h3.agileits-title {
 ul.address li {
     display: block;
     font-size: 0.9em;
-    color: #efefef;
+    color: rgb(98, 255, 229);
     margin-top: 1em;
 }
 ul.address li a{ 
-    color: #efefef; 
+    color: rgb(98, 255, 229); 
 	text-decoration:none;
 }
 ul.address li a:hover {
@@ -672,14 +672,14 @@ ul.address li a:hover {
 }
 .profile-grids i.fa {
     font-size: 1.5em;
-    color: #f98900;
+    color: aqua;
     border: 1px solid;
     padding: .5em;
     border-radius: 15px 0;
 }
 .profile-grids h5 {
     font-size: 1.5em;
-    color: #f78800;
+    color: aqua;
     margin: 1em 0;
 }
 /*-- //banner-top --*/ 
@@ -689,7 +689,7 @@ ul.address li a:hover {
 } 
 p {
     font-size: 1em;
-    color: #999;
+    color: #000;
     line-height: 1.8em;
 }
 .about-right {
@@ -877,11 +877,11 @@ p {
 }
 .services h4 {
     font-size: 1.6em;
-    color: #f78800;
+    color: aqua;
     margin-bottom: .3em;
 }
 .serv-wthree-row:hover span.glyphicon {
-    background-color: #f78800; 
+    background-color: aqua; 
 }
 /*-- //services --*/
 /*-- work --*/
@@ -912,7 +912,7 @@ h3.agileits-title.agileits-title2 {
 }
 .panel-title > a{
     font-size: 1em;
-    color:#f78800;
+    color:aqua;
     text-transform: capitalize;
 	text-decoration: none;
 	padding: 10px 30px;
@@ -1069,11 +1069,11 @@ a.pa_italic:focus {
     float: right; 
 }
 .contact p {
-    color: #fff;
+    color: #000;
     font-weight: 300;
 }
 .contact p a {
-    color: #fff;
+    color: rgba(0, 31, 28, 0.836);
 }
 .contact p a:hover{
     color: #f58700;
@@ -1082,7 +1082,7 @@ a.pa_italic:focus {
     content: '';
     width: 1px;
     height: 100%;
-    background: #ccc;
+    background: #000;
     position: absolute;
     top: 0;
     right: -17px;
@@ -1090,7 +1090,7 @@ a.pa_italic:focus {
 /*-- input-effect --*/
 .contact-wthree-right input[type="text"],.contact-wthree-right input[type="email"]{
     width: 100%;
-    color: #fff;
+    color: #000;
     background: none;
     outline: none;
     font-size: 1em;
@@ -1103,7 +1103,7 @@ a.pa_italic:focus {
 .contact-wthree-right textarea {
     width: 100%;
     background: none;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     outline: none;
     padding: .8em 1em;
@@ -1113,13 +1113,13 @@ a.pa_italic:focus {
 }
 .contact-wthree-right input[type="submit"] {
     outline: none;
-    color: #fff;
+    color: #000;
     padding: 0.6em 1em;
     font-size: 1.1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #f78800;
-    border: 2px solid #f78800; 
+    background: aqua;
+    border: 2px solid aqua; 
     -webkit-transition: 0.5s all; 
     -moz-transition: 0.5s all;
 	transition: 0.5s all;
@@ -1130,16 +1130,16 @@ a.pa_italic:focus {
     color: #f78800;
 }
 ::-webkit-input-placeholder {
-	color:#fff !important;
+	color:#000 !important;
 } 
 :-moz-placeholder { /* Firefox 18- */
-	color:#fff !important; 
+	color:#000 !important; 
 } 
 ::-moz-placeholder {  /* Firefox 19+ */
-	color:#fff !important;
+	color:#000 !important;
 } 
 :-ms-input-placeholder {  
-	color:#fff !important;
+	color:#000 !important;
 } 
 /*-- //contact --*/
 /*-- footer --*/
